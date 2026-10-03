@@ -127,7 +127,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _EmissionStrength: 2
+    - _EmissionStrength: 2.07
     - _EnvironmentReflections: 1
     - _Float: 12.01
     - _GlossMapScale: 1
@@ -163,7 +163,7 @@ Material:
     - _Color: {r: 0.57647055, g: 0.5647059, b: 0.5098039, a: 1}
     - _ColorTint: {r: 0.7169812, g: 0.68273854, b: 0.6256675, a: 0}
     - _CoverTint: {r: 0.36581227, g: 0.46226418, b: 0.29436633, a: 0}
-    - _EmissionColor: {r: 4, g: 0, b: 0.03690338, a: 0}
+    - _EmissionColor: {r: 0, g: 54.535294, b: 59.714115, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
