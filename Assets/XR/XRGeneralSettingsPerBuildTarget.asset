@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
   m_Name: Standalone Settings
   m_EditorClassIdentifier: Unity.XR.Management::UnityEngine.XR.Management.XRGeneralSettings
-  m_LoaderManagerInstance: {fileID: -2688986728077161056}
+  m_Manager: {fileID: -2688986728077161056}
   m_InitManagerOnStart: 1
 --- !u!114 &-2688986728077161056
 MonoBehaviour:
@@ -43,6 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettingsPerBuildTarget
   m_EditorClassIdentifier: Unity.XR.Management.Editor::UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
-  Keys: 01000000
-  Values:
-  - {fileID: -3164312241858772925}
+  Keys: 
+  Values: []
+  m_SettingsPerBuildTarget:
+  - buildTarget: 1
+    settings: {fileID: -3164312241858772925}
