@@ -6673,7 +6673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2b55d595366c4147a45c47566949470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
-  bulletPrefab: {fileID: 1119787847}
+  bulletPrefab: {fileID: 92546416140808280, guid: 774127a895a215140b60bd023c7defbe, type: 3}
   muzzle: {fileID: 1407668622}
   bulletSpeed: 40
   muzzleFlashPrefab: {fileID: 2504214343621411470, guid: 3ed0d324122d7b24eaec75c55c74aafc, type: 3}
@@ -7831,11 +7831,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
   m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ActionId: 0c3d0ec9-85a1-45b3-839b-1ca43f859ecd
---- !u!1 &1119787847 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 92546416140808280, guid: 774127a895a215140b60bd023c7defbe, type: 3}
-  m_PrefabInstance: {fileID: 637200974240365288}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1129578214
 PrefabInstance:
   m_ObjectHideFlags: 0
