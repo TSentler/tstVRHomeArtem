@@ -1,9 +1,21 @@
 fileFormatVersion: 2
 guid: 2c028ae3306a83c44b6af76c334cfa7f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 392136
+  packageName: Cozy Village & Home - Low Poly Props
+  packageVersion: 1.0
+  assetPath: Assets/Cozy Village & Home/Models/Pack (2).fbx_Well_2.fbx
+  uploadId: 950772
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bucket
+    second: {fileID: 2100000, guid: b52582557f1320f4db8b1adda450ac00, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -108,10 +120,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 392136
-  packageName: Cozy Village & Home - Low Poly Props
-  packageVersion: 1.0
-  assetPath: Assets/Cozy Village & Home/Models/Pack (2).fbx_Well_2.fbx
-  uploadId: 950772
