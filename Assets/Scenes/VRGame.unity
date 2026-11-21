@@ -9032,8 +9032,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1601294333}
-        m_TargetAssemblyTypeName: XRLocomotionSwitcher, Unity.XR.Interaction.Toolkit.Samples.StarterAssets
+      - m_Target: {fileID: 1601294330}
+        m_TargetAssemblyTypeName: GrokSimpleVRCarController, Unity.XR.Interaction.Toolkit.Samples.StarterAssets
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
@@ -28932,6 +28932,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
+--- !u!114 &883157725 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7730284694475197557, guid: 5255f25ad01bad64fb278a8d99a4c3b2, type: 3}
+  m_PrefabInstance: {fileID: 169583867572241163}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b29b6c6428c984a8a73ffc2d58063b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning.ContinuousTurnProvider
 --- !u!1 &883792180
 GameObject:
   m_ObjectHideFlags: 0
@@ -51298,6 +51309,7 @@ MonoBehaviour:
   - {fileID: 169583867572241167}
   - {fileID: 169583867572241166}
   - {fileID: 169583867572241164}
+  - {fileID: 883157725}
 --- !u!1 &1601900461
 GameObject:
   m_ObjectHideFlags: 0
@@ -69291,6 +69303,10 @@ PrefabInstance:
     - target: {fileID: 3887322246452764890, guid: 5255f25ad01bad64fb278a8d99a4c3b2, type: 3}
       propertyPath: m_Name
       value: VRPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887322246452764890, guid: 5255f25ad01bad64fb278a8d99a4c3b2, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5626321219660672118, guid: 5255f25ad01bad64fb278a8d99a4c3b2, type: 3}
       propertyPath: m_SelectInput.m_InputActionReferenceValue

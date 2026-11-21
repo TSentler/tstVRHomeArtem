@@ -23,7 +23,7 @@ public class GripToggleInTrigger : MonoBehaviour
         if (gripAction != null)
         {
             gripAction.action.performed += OnGripPressed;
-            gripAction.action.Enable();
+            //gripAction.action.Enable();
         }
     }
 
@@ -32,7 +32,7 @@ public class GripToggleInTrigger : MonoBehaviour
         if (gripAction != null)
         {
             gripAction.action.performed -= OnGripPressed;
-            gripAction.action.Disable();
+            //gripAction.action.Disable();
         }
     }
 
@@ -55,12 +55,18 @@ public class GripToggleInTrigger : MonoBehaviour
     // === Триггер зона ===
     private void OnTriggerEnter(Collider other)
     {
-        // Можно добавить проверку тега, например: if (!other.CompareTag("Player")) return;
+        // Можно добавить проверку тега, например:
+        if (!other.CompareTag("Player")) 
+            return;
+
         isInsideTrigger = true;
     }
 
     private void OnTriggerExit(Collider other)
     {
+        if (!other.CompareTag("Player"))
+            return;
+
         isInsideTrigger = false;
 
         if (resetOnExitTrigger)
